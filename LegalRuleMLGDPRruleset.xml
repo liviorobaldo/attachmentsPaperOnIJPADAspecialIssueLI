@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lrml:LegalRuleML xmlns:lrml="http://docs.oasis-open.org/legalruleml/ns/v1.0/" xmlns:ruleml="http://ruleml.org/spec">
+
+  <lrml:Prefix pre="GDPR" refID="/akn/eu/act/regulation/2018-05-25/eng@2018-05-25/!main#" />
+  
+  <lrml:LegalReferences type="legislative">
+    <lrml:LegalReference refersTo="gdprA6ref" refID="GDPR:art_6" />
+    <lrml:LegalReference refersTo="gdprA6P1paref" refID="GDPR:art_6__para_1__content__list_1__point_a" />
+    <lrml:LegalReference refersTo="gdprA6P1pbref" refID="GDPR:art_6__para_1__content__list_1__point_b" />
+    <lrml:LegalReference refersTo="gdprA6P1pdref" refID="GDPR:art_6__para_1__content__list_1__point_d" />
+    <lrml:LegalReference refersTo="gdprA7P1ref" refID="GDPR:art_7__para_1" />
+    <lrml:LegalReference refersTo="gdprA7P3ref" refID="GDPR:art_7__para_3" />
+    <lrml:LegalReference refersTo="gdprA9P1ref" refID="GDPR:art_9__para_1" />
+    <lrml:LegalReference refersTo="gdprA9P2pcref" refID="GDPR:art_9__para_2__content__list_1__point_c" />
+    <lrml:LegalReference refersTo="gdprA9P2piref" refID="GDPR:art_9__para_2__content__list_1__point_i" />
+    <lrml:LegalReference refersTo="gdprA9P2pjref" refID="GDPR:art_9__para_2__content__list_1__point_j" />
+    <lrml:LegalReference refersTo="gdprA13P1ref" refID="GDPR:art_13__para_1" />
+    <lrml:LegalReference refersTo="gdprA13P1paref" refID="GDPR:art_13__para_1__content__list_1__point_a" />
+    <lrml:LegalReference refersTo="gdprA13P1pbref" refID="GDPR:art_13__para_1__content__list_1__point_b" />
+    <lrml:LegalReference refersTo="gdprA13P1pcref" refID="GDPR:art_13__para_1__content__list_1__point_c" />
+    <lrml:LegalReference refersTo="gdprA13P1peref" refID="GDPR:art_13__para_1__content__list_1__point_e" />
+    <lrml:LegalReference refersTo="gdprA13P2paref" refID="GDPR:art_13__para_2__content__list_1__point_a" />
+    <lrml:LegalReference refersTo="gdprA13P2pbref" refID="GDPR:art_13__para_2__content__list_1__point_b" />
+    <lrml:LegalReference refersTo="gdprA13P2pdref" refID="GDPR:art_13__para_2__content__list_1__point_d" />
+    <lrml:LegalReference refersTo="gdprA13P2peref" refID="GDPR:art_13__para_2__content__list_1__point_e" />
+    <lrml:LegalReference refersTo="gdprA13P2pfref" refID="GDPR:art_13__para_2__content__list_1__point_f" />
+    <lrml:LegalReference refersTo="gdprA14P1ref" refID="GDPR:art_14__para_1" />
+    <lrml:LegalReference refersTo="gdprA14P2pfref" refID="GDPR:art_14__para_2__content__list_1__point_f" />
+  </lrml:LegalReferences>
+  
+  <lrml:Associations>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA6ref" refID="GDPR:art_6" />
+      <lrml:toTarget keyref="#statements_Art_6" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA6P1paref" refID="GDPR:art_6__para_1__content__list_1__point_a" />
+      <lrml:toTarget keyref="#statements_Art_6_1a" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA6P1pbref" refID="GDPR:art_6__para_1__content__list_1__point_b" />
+      <lrml:toTarget keyref="#statements_Art_6_1b" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA6P1pdref" refID="GDPR:art_6__para_1__content__list_1__point_d" />
+      <lrml:toTarget keyref="#statements_Art_6_1d" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA7P1ref" refID="GDPR:art_7__para_1" />
+      <lrml:toTarget keyref="#statements_Art_7_1" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA7P3ref" refID="GDPR:art_7__para_3" />
+      <lrml:toTarget keyref="#statements_Art_7_3" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA9P1ref" refID="GDPR:art_9__para_1" />
+      <lrml:toTarget keyref="#statements_Art_9_1" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA9P2pcref" refID="GDPR:art_9__para_2__content__list_1__point_c" />
+      <lrml:toTarget keyref="#statements_Art_9_2c" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA9P2piref" refID="GDPR:art_9__para_2__content__list_1__point_i" />
+      <lrml:toTarget keyref="#statements_Art_9_2i" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA9P2pjref" refID="GDPR:art_9__para_2__content__list_1__point_j" />
+      <lrml:toTarget keyref="#statements_Art_9_2j" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P1ref" refID="GDPR:art_13__para_1" />
+      <lrml:toTarget keyref="#statements_Art_13_1" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P1paref" refID="GDPR:art_13__para_1__content__list_1__point_a" />
+      <lrml:toTarget keyref="#statements_Art_13_1a" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P1pbref" refID="GDPR:art_13__para_1__content__list_1__point_b" />
+      <lrml:toTarget keyref="#statements_Art_13_1b" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P1pcref" refID="GDPR:art_13__para_1__content__list_1__point_c" />
+      <lrml:toTarget keyref="#statements_Art_13_1c" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P1peref" refID="GDPR:art_13__para_1__content__list_1__point_e" />
+      <lrml:toTarget keyref="#statements_Art_13_1e" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P2paref" refID="GDPR:art_13__para_2__content__list_1__point_a" />
+      <lrml:toTarget keyref="#statements_Art_13_2a" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P2pbref" refID="GDPR:art_13__para_2__content__list_1__point_b" />
+      <lrml:toTarget keyref="#statements_Art_13_2b" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P2pdref" refID="GDPR:art_13__para_2__content__list_1__point_d" />
+      <lrml:toTarget keyref="#statements_Art_13_2d" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P2peref" refID="GDPR:art_13__para_2__content__list_1__point_e" />
+      <lrml:toTarget keyref="#statements_Art_13_2e" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA13P2pfref" refID="GDPR:art_13__para_2__content__list_1__point_f" />
+      <lrml:toTarget keyref="#statements_Art_13_2f" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA14P1ref" refID="GDPR:art_14__para_1" />
+      <lrml:toTarget keyref="#statements_Art_14_1" />
+    </lrml:Association>
+    <lrml:Association>
+      <lrml:appliesSource keyref="#gdprA14P2pfref" refID="GDPR:art_14__para_2__content__list_1__point_f" />
+      <lrml:toTarget keyref="#statements_Art_14_1f" />
+    </lrml:Association>
+  </lrml:Associations>
+  
+  <lrml:Statements key="statements_Art_6_0">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OM">
+            <ruleml:Neg>
+              <ruleml:Atom>
+                <ruleml:Rel>Proc</ruleml:Rel>
+              </ruleml:Atom>
+            </ruleml:Neg>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_6_1a">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>GiveConsent</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+    <lrml:OverrideStatement key="section1_2_OverrideStatement1">
+      <lrml:Override over="#statements_Art_6_1a" under="#statements_Art_6_0" />
+    </lrml:OverrideStatement>
+    <lrml:OverrideStatement key="section1_2_OverrideStatement1">
+      <lrml:Override over="#statements_Art_6_1a" under="#statements_Art_9_1" />
+    </lrml:OverrideStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_6_1b">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Contract</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+    <lrml:OverrideStatement key="section1_2_OverrideStatement1">
+      <lrml:Override over="#statements_Art_6_1b" under="#statements_Art_6_0" />
+    </lrml:OverrideStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_6_1d">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>VI</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+    <lrml:OverrideStatement key="section1_2_OverrideStatement1">
+      <lrml:Override over="#statements_Art_6_1d" under="#statements_Art_6_0" />
+    </lrml:OverrideStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_7_1">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>GiveConsent</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OM">
+            <ruleml:Atom>
+              <ruleml:Rel>DemonstrateConsent</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_7_3">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>WithdrawConsent</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>WithdrawConsent</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OM">
+            <ruleml:Neg>
+              <ruleml:Atom>
+                <ruleml:Rel>Proc</ruleml:Rel>
+              </ruleml:Atom>
+            </ruleml:Neg>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Proc</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideTransparentInfo</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_9_1">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OM">
+            <ruleml:Neg>
+              <ruleml:Atom>
+                <ruleml:Rel>Proc</ruleml:Rel>
+              </ruleml:Atom>
+            </ruleml:Neg>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealRacialData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealEthnicOriginData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealReligiousBeliefsData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealGeneticData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealBiometricData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealHealthData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSexLifeData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+	
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSexualOrientationData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_9_2c">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>VI</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>PhysicallyUnableToGiveConsent</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>VI</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>LegallyUnableToGiveConsent</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_9_2i">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>PubHealth</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+    <lrml:OverrideStatement key="section1_2_OverrideStatement1">
+      <lrml:Override over="#statements_Art_9_2i" under="#statements_Art_9_1" />
+    </lrml:OverrideStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_9_2j">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Research</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Statistical</ruleml:Rel>
+          </ruleml:Atom>
+          <ruleml:Atom>
+            <ruleml:Rel>RevealSensitiveData</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Proc</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_1">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>[P]Proc</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Permission>
+            <ruleml:Atom>
+              <ruleml:Rel>Collect</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Permission>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_1a">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+		  <ruleml:Atom>
+		    <ruleml:Rel>Collect</ruleml:Rel>
+		  </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideControllerIdentityAndContactDetails</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+		  <ruleml:Atom>
+		    <ruleml:Rel>Collect</ruleml:Rel>
+		  </ruleml:Atom>
+		</ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideControllerRepresentativeIdentityAndContactDetails</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_1b">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideDataProtectionOfficerContactDetails</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_1c">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutPurpose</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutLegalBasis</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_1e">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRecipient</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2a">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutStorage</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2b">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToRequestAccess</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToRectify</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2b_part3">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+		</ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToErase</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2b_part4">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToRestrict</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2b_part5">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+		</ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToObject</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2b_part6">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToDataPortability</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2d">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToWithdrawConsent</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+	
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutRightToLodgeComplaints</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2e">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutContractualObligations</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_13_2f">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutAutomatedDecisionMaking</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_14_1">
+    <lrml:ConstitutiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>CollectFromThirdParty</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <ruleml:Atom>
+            <ruleml:Rel>Collect</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:ConstitutiveStatement>
+  </lrml:Statements>
+  
+  <lrml:Statements key="statements_Art_14_2f">
+    <lrml:PrescriptiveStatement>
+      <ruleml:Rule>
+        <ruleml:if>
+          <ruleml:Atom>
+            <ruleml:Rel>CollectFromThirdParty</ruleml:Rel>
+          </ruleml:Atom>
+        </ruleml:if>
+        <ruleml:then>
+          <lrml:Obligation iri="https://example.org/deontic#OAPNP">
+            <ruleml:Atom>
+              <ruleml:Rel>ProvideInfoAboutSourceOfData</ruleml:Rel>
+            </ruleml:Atom>
+          </lrml:Obligation>
+        </ruleml:then>
+      </ruleml:Rule>
+    </lrml:PrescriptiveStatement>
+  </lrml:Statements>
+  
+</lrml:LegalRuleML>
